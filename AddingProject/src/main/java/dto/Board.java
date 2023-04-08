@@ -3,11 +3,11 @@ package dto;
 import java.sql.Date;
 
 public class Board {
-	public int bd_no;
-	public String bd_name;
-	public String bd_title;
-	public String bd_content;
-	public Date bd_date;
+	public int bdNo;
+	public String bdName;
+	public String bdTitle;
+	public String bdContent;
+	public Date bdDate;
 	
 	public Board() {
 		// TODO Auto-generated constructor stub
@@ -15,57 +15,57 @@ public class Board {
 
 	@Override
 	public String toString() {
-		return "Board [bd_no=" + bd_no + ", bd_name=" + bd_name + ", bd_title=" + bd_title + ", bd_content="
-				+ bd_content + ", bd_date=" + bd_date + "]";
+		return "Board [bdNo=" + bdNo + ", bdName=" + bdName + ", bdTitle=" + bdTitle + ", bdContent=" + bdContent
+				+ ", bdDate=" + bdDate + "]";
 	}
 
-	public Board(int bd_no, String bd_name, String bd_title, String bd_content, Date bd_date) {
+	public Board(int bdNo, String bdName, String bdTitle, String bdContent, Date bdDate) {
 		super();
-		this.bd_no = bd_no;
-		this.bd_name = bd_name;
-		this.bd_title = bd_title;
-		this.bd_content = bd_content;
-		this.bd_date = bd_date;
+		this.bdNo = bdNo;
+		this.bdName = bdName;
+		this.bdTitle = bdTitle;
+		this.bdContent = bdContent;
+		this.bdDate = bdDate;
 	}
 
-	public int getBd_no() {
-		return bd_no;
+	public int getBdNo() {
+		return bdNo;
 	}
 
-	public void setBd_no(int bd_no) {
-		this.bd_no = bd_no;
+	public void setBdNo(int bdNo) {
+		this.bdNo = bdNo;
 	}
 
-	public String getBd_name() {
-		return bd_name;
+	public String getBdName() {
+		return bdName;
 	}
 
-	public void setBd_name(String bd_name) {
-		this.bd_name = bd_name;
+	public void setBdName(String bdName) {
+		this.bdName = bdName;
 	}
 
-	public String getBd_title() {
-		return bd_title;
+	public String getBdTitle() {
+		return bdTitle;
 	}
 
-	public void setBd_title(String bd_title) {
-		this.bd_title = bd_title;
+	public void setBdTitle(String bdTitle) {
+		this.bdTitle = bdTitle;
 	}
 
-	public String getBd_content() {
-		return bd_content;
+	public String getBdContent() {
+		return bdContent;
 	}
 
-	public void setBd_content(String bd_content) {
-		this.bd_content = bd_content;
+	public void setBdContent(String bdContent) {
+		this.bdContent = bdContent;
 	}
 
-	public Date getBd_date() {
-		return bd_date;
+	public Date getBdDate() {
+		return bdDate;
 	}
 
-	public void setBd_date(Date bd_date) {
-		this.bd_date = bd_date;
+	public void setBdDate(Date bdDate) {
+		this.bdDate = bdDate;
 	}
 	
 	
