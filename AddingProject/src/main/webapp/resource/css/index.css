@@ -1,0 +1,42 @@
+@charset "UTF-8";
+/* 페이지 마진, 패팅 초기화 */
+html, body {
+	margin: 0px; 
+	padding: 0px;
+}
+
+header {
+	background-color: tomato;
+	display: flex;
+	align-items: center;
+	padding-left: 32px;
+	padding-right: 32px;
+	justify-content: space-between;
+ 	position: sticky;
+  	top: 0;
+}
+#titleName {
+	margin-left: 10px;
+}
+
+#titleUl {
+	list-style-type: none;
+	padding:0;
+}
+
+#titleUl > li {
+	display: inline-block; /*줄바꿈없이 한줄에 표시하기*/
+	margin-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#authButton {
+	display:inline-block;	
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}

@@ -5,8 +5,9 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<link href="./resource/css/auth/register.css">
 </head>
 <body>
-
+<h1>LOGO</h1>
 </body>
 </html>
