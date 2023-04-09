@@ -20,5 +20,6 @@
 		</thead>
 	</table><br></br>
 	<a href="./board/boardwrite"><button>등록</button></a>
+	<h3>??</h3>
 </body>
 </html>

@@ -7,13 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form>
+<h1>Title</h1>
+<form  method="post" href="./login">
 	<label>아이디</label>
-	<input type="text" name="id">
+	<input type="text" name="id"><br>
 	
 	<label>비밀번호</label>
-	<input type="text" name="pw">
+	<input type="text" name="pw"><br>
 	
+	<button>로그인</button>
 </form>
 </body>
 </html>

@@ -15,7 +15,7 @@ public class BoardController extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println("/board [GET]");
 		
-		req.getRequestDispatcher("/WEB-INF/views/Board/board.jsp").forward(req, resp);
+		req.getRequestDispatcher("/WEB-INF/views/board/board.jsp").forward(req, resp);
 		
 	}
 	

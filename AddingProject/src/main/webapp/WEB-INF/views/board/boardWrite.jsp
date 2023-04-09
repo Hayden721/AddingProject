@@ -5,9 +5,17 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="./resource/css/auth/register.css">
 </head>
 <body>
-<h1>LOGO</h1>
+<h1>글작성 페이지</h1>
+<hr>
+
+<form href="./board" method="post">
+	<label>제목</label>
+	<input type="text" name="title">
+
+	<label>내용</label>
+	<textarea name="context"></textarea>
+</form>
 </body>
 </html>

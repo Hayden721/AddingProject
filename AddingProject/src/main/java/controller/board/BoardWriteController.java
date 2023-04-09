@@ -17,7 +17,7 @@ public class BoardWriteController extends HttpServlet {
 		
 		
 		
-		req.getRequestDispatcher("/WEB-INF/views/Board/boardWrite.jsp").forward(req, resp);
+		req.getRequestDispatcher("/WEB-INF/views/board/boardWrite.jsp").forward(req, resp);
 		
 	}
 }

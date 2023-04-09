@@ -18,5 +18,11 @@
 	</nav>
 </header>
 
+<div>
+
+	<a href="./board"><button>°Ô½ÃÆÇ</button></a>
+
+</div>
+
 </body>
 </html>
